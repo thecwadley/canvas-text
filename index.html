@@ -4,12 +4,8 @@
 <script>
   
   var newWin = window.open("https://bookmarkify.it/41809", "_blank");            
-
-if(!newWin || newWin.closed || typeof newWin.closed=='undefined') 
-{ 
-} else {
-   window.location.replace("https://bookmarkify.it/41810");
-
+if(newWin || !newWin.closed || typeof newWin.closed!='undefined') {
+  window.location.replace("https://bookmarkify.it/41810");
 }
 </script>
 </body>
